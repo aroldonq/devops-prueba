@@ -33,13 +33,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
-		<dependency>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>sonar-maven-plugin</artifactId>
-			<version>3.9.0.2155</version>
-			<type>pom</type>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -76,11 +69,6 @@
 				<configuration>
 					<release>11</release>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.9.0.2155</version>
 			</plugin>
 		</plugins>
 	</build>
