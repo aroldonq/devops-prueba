@@ -55,7 +55,7 @@
 			<plugin>
  				<groupId>org.apache.maven.plugins</groupId>
   				<artifactId>maven-source-plugin</artifactId>
-  				<version>3.9.0</version>
+  				<version>3.1.0</version>
 			</plugin>
 			<plugin>
  				<groupId>org.apache.maven.plugins</groupId>
@@ -63,9 +63,9 @@
   				<version>3.1.0</version>
 			</plugin>
 			<plugin>
-                <groupId>org.apache.scanner.maven</groupId>
+                <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.0.2</version>
+                <version>3.9.0</version>
             </plugin>
 		</plugins>
 	</build>
