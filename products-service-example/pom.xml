@@ -74,11 +74,11 @@
 			<plugin>    
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<release>8</release>
+					<release>11</release>
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
+				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>3.9.0.2155</version>
 			</plugin>
