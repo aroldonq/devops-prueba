@@ -14,21 +14,17 @@
 	<name>products-service-example</name>
 	<description>Demo project for migrating Monolith to Microservices</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<sonar.organization>aroldonq</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<maven.compiler.source>1.8</maven.compiler.source>
- 		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+ 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<properties>
-   			 <maven.compiler.release>11</maven.compiler.release>
-		</properties>
-		
+		</dependency>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
