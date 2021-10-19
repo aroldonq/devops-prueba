@@ -25,7 +25,9 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<properties>
+   			 <maven.compiler.release>11</maven.compiler.release>
+		</properties>
 		<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
 		<dependency>
     		<groupId>org.codehaus.mojo</groupId>
